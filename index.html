@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>User Management Application</h2>
+
+
+
+<label for="name">Name:</label>
+<input type="text" id="name" title="Provide name">
+
+<label for="email">Email:</label>
+<input type="text" id="email" title="Provide email">
+
+<label for="role">Role:</label>
+<input type="text" id="role" title="Provide role">
+
+<button onclick="addUser()">Add User</button>
+
+<h3>User List</h3>
+<table border="1" id="userTable">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Role</th>
+        <th>Action</th>
+    </tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

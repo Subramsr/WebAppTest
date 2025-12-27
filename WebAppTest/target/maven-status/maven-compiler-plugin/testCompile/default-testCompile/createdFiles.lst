@@ -1,0 +1,4 @@
+base\BaseTest.class
+tests\UserManagementTest.class
+pages\UserManagementPage.class
+utils\DriverFactory.class

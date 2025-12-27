@@ -1,0 +1,4 @@
+User Story:
+As an admin user of the User Management Application,
+I want to add a "Role" field when creating a new user,
+So that I can specify and view each user's role in the user list for better management and clarity.
